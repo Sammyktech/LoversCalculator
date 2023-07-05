@@ -1,0 +1,58 @@
+body{
+    background-image: url(images/Screenshot\ 7.png);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+    padding: 0;
+}
+#container{
+    border: 1px solid black;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    
+}
+button{
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+    border: none;
+    width: 20%;
+    margin-top: 20px;
+}
+div{
+    font-style: oblique;
+    margin-top: 20px;
+}
+h1{
+    color: purple;
+    font-style: italic;
+}
+#opps1{
+    font-style: italic;
+    color: purple;
+}
+input{
+    color: purple;
+    border-radius: 15px;
+    border-color: darksalmon;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-style: solid;
+}
+@media(max-width:768px){
+    #container{
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    }
+}
