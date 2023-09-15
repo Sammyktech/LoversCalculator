@@ -1,5 +1,6 @@
 body{
-    background-image: url(images/Screenshot\ 7.png);
+    background-image: url(images/love.webp);
+    
 }
 
 *{
@@ -7,26 +8,29 @@ body{
     box-sizing: border-box;
     font-family: poppins sans-serif;
     padding: 0;
+   
 }
 #container{
     border: 1px solid black;
     width: 50%;
-    height: 80%;
+    height: 100%;
     margin: auto;
     text-align: center;
     background-color: white;
     border-radius: 20px;
     border: none;
-    
+    /* box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52); */
 }
 button{
-    padding: 8px;
+    padding: 10px;
     color: white;
     font-weight: bold;
     background-color: purple;
     border: none;
     width: 20%;
     margin-top: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
 div{
     font-style: oblique;
@@ -39,15 +43,20 @@ h1{
 #opps1{
     font-style: italic;
     color: purple;
+    font-size: 1.5rem;
+}
+#opps{
+    font-size: 1.5rem; 
 }
 input{
     color: purple;
     border-radius: 15px;
     border-color: darksalmon;
-    padding: 5px;
+    padding: 8px;
     border: none;
     outline: none;
     border-style: solid;
+    font-size: 1.5rem;
 }
 @media(max-width:768px){
     #container{
@@ -55,4 +64,19 @@ input{
     padding: 0;
     flex-direction: column;
     }
+}
+@media (max-width:667px) {
+    button{
+        width: 100px;
+    }
+}
+@media (max-width:820px) {
+    button{
+        width: 100px;
+    }
+}
+
+.occupy{
+    text-align: center;
+    /* box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52); */
 }
